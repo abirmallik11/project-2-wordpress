@@ -1,0 +1,245 @@
+/*
+Theme Name: Theme Two
+Theme URI: https://abirmallik.blogspot.com
+Author: MD ABIR MALLIK
+Author URI: https://abirmallik.blogspot.com
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Version: 2.0
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Theme Two
+*/
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.full-website
+{
+    width: 90%;
+    background-color: #8a2be2;
+    padding: 0;
+}
+.row
+{
+    margin: 0;
+    padding: 0;
+}
+.row::after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.first-room
+{
+    height: auto;
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #bd2be2;
+}
+
+.menu
+{
+    height: 45px;
+    width: 100%;
+    background-color: #800080;
+    padding: 0;
+}
+.menu ul
+{
+    list-style-type: none;
+    display: inline-flex;
+    padding-left: 0;
+    margin: 0;
+}
+.menu ul li
+{
+    padding: 10px 15px;
+    border-right: 1px solid black;
+}
+
+.menu ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li:hover
+{
+    background-color: #af02af;
+    cursor: pointer;
+}
+.sub-menu
+{
+    display: none;
+}
+
+.menu ul li:hover .sub-menu
+{
+    display: block;
+    background-color: #800080 ;
+    position: absolute;
+    z-index: 10;
+    margin-top: 10px;
+    margin-left: -15px;
+    
+}
+.menu ul li:hover .sub-menu ul
+{
+    display: block;
+}
+.sub-menu ul li
+{
+    border: 0;
+}
+.menu-item-has-children ul
+{
+    display: none;
+}
+
+.sub-menu ul li:hover .sub-menu1
+{
+    display: block;
+    position: absolute;
+    background-color: #800080;
+    margin-left: 65px;
+    margin-top: -30px;
+}
+.sub-menu ul li:hover .sub-menu1 ul
+{
+    display: block;
+}
+
+/* ---------------- */
+
+.left-side
+{
+    width: 70%;
+    background-color: rgb(24, 60, 179);
+}
+.right-side
+{
+    width: 30%;
+    background-color: #102392;
+    padding-top: 6px;
+    color: white;
+}
+.right-side h2
+{
+    border-bottom: 2px solid black;
+    padding: 4px;
+}
+.right-side a
+{
+    text-decoration: none;
+    color: white;
+}
+.right-side a:hover
+{
+    text-decoration: underline;
+}
+.right-side ul li
+{
+    padding: 5px 0px;
+}
+.content-element
+{
+    margin-bottom: 20px;
+    border-bottom: dashed 2px wheat;
+    padding-top: 0;
+    padding: 10px;
+}
+.content-element img
+{
+    width: 30%;
+    height: 150px;
+    float: right;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 15px 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #399fce;
+}
+.content-element p
+{
+    text-align: justify;
+    color: cornsilk;
+    margin-bottom: 10px
+}
+.content-element a
+{
+    text-decoration: none;
+    color: cyan;
+    background-color: darkblue;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+    
+}
+.content-element a:hover
+{
+    background-color: cyan;
+    color: darkblue;
+}
+
+.fifth-room
+{
+    background-color: #631ca5;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+    
+}
+.box
+{
+    text-align: justify;
+}
+.box h2
+{
+    border-bottom: 3px solid white;
+    margin-inline: 10px;
+    text-align: center;
+    color: greenyellow;
+    margin-bottom: 15px;
+}
+.box ul
+{
+    color: white;
+    list-style: square;
+
+}
+.box ul li a
+{
+    text-decoration: none;
+    color: thistle;
+    text-align: justify;
+}
+.box ul li
+{
+    margin-left: 15px;
+    padding: 10px;
+}
+.box ul li:hover
+{
+    text-decoration: underline;
+}
+.sixth-room
+{
+    background-color: #cc00ff;
+    text-align: center;
+}
+.sixth-room h4
+{
+    color: goldenrod;
+    font-size: small;
+    font-weight: 700;
+}
+
+/* ---------slider-------- */
